@@ -1,0 +1,69 @@
+body{
+    padding: 80%;
+}
+.fundo{
+    background-color: #3c5a93;
+}
+.text{
+    text-align: center;    
+}
+.titulo{
+    text-align: center;
+}
+form label {
+    display:flex;
+    font-size: 20px;
+    margin: 20px 0 10px;
+    font-family: 'Gotu', sans-serif;
+    font-weight:100;
+    text-align: left;
+}
+.input-padrao {
+    display: block;
+    margin: 0 auto;
+    width: 92%;
+    padding: 10px;
+    text-align: center;
+}
+.main{
+    text-align: center;
+    width: 100%;
+    margin: 0px 0;
+}
+.form{
+    display: inline-block;
+    width: 300px;
+}
+.form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 100%;
+}
+section{
+    background-color:#c4c4c4 ;
+    height: calc(112vh - 100px);
+    width: 490px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    border: 2px solid #090909; /* Define a borda */
+    border-radius: 15px;
+}
+.botao{
+    display: inline-block;
+    padding: 10px 220px;
+    background-color: #2eab8b;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: auto;
+    cursor: pointer;
+}
+.linha{
+    text-align: center;
+}
+.linha2{
+    text-align: center;
+}
